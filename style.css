@@ -1,3 +1,38 @@
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5em;
+    overflow: hidden;
+    font-family: 'Faster One', cursive;
+    font-size: 6em;
+    float: left;
+}
+
+.head-nav {
+    display: inline;
+}
+
+nav {
+    padding-block-start: 0.5%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-inline-end: 15%;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    font-family: 'Monoton', cursive;
+    color: #40b4d8;
+    font-size: 2em;
+}
+
+
 header {
     background: url("./images/top-head1.jpg");
     width: 100%;
@@ -6,30 +41,4 @@ header {
     overflow: hidden;
     text-align: center;
 
-}
-
-h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 5em;
-    overflow: hidden;
-    display: inline-block;
-    font-family: 'Faster One', cursive;
-    font-size: 6em;
-}
-
-nav {
-    float: left;
-    position: relative;
-    left: 25%;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
 }
