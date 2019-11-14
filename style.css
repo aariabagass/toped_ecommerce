@@ -82,15 +82,17 @@ header {
   width: 200px;
 }
 
+/* section cart */
+
 table.cart {
-  border: 0px solid #000000;
+  border: 0px solid black;
   width: 100%;
   text-align: left;
   border-collapse: collapse;
 }
 table.cart td,
 table.cart th {
-  border: 0px solid #000000;
+  border: 0px solid black;
   padding: 5px 4px;
 }
 
@@ -104,7 +106,7 @@ table.cart tbody td {
 }
 table.cart thead {
   background: #9900ff;
-  border-bottom: 0px solid #000000;
+  border-bottom: 0px solid black;
 }
 table.cart thead th {
   font-size: 20px;
@@ -115,8 +117,8 @@ table.cart thead th {
 table.cart tfoot {
   font-size: 14px;
   font-weight: bold;
-  color: #000000;
-  border-top: 3px solid #000000;
+  color: black;
+  border-top: 3px solid black;
   text-align: center;
 }
 table.cart tfoot td {
